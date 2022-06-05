@@ -1,0 +1,8 @@
+参考：
+  https://qiita.com/kyamamoto9120/items/f1cda89ffc7cb5254f17
+
+run :
+  docker run --rm -p 5000:8080 image_name
+
+確認：
+  curl -d '{}' http://localhost:5000/2015-03-31/functions/function/invocations
